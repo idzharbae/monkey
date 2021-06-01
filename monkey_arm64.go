@@ -35,5 +35,5 @@ func jmpToFunctionValue(to uintptr) []byte {
 
 	finalByteCode = append(finalByteCode, byteCode[16:]...)
 
-	return byteCode
+	return finalByteCode
 }
